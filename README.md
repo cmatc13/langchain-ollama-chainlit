@@ -41,6 +41,10 @@ cd langchain-ollama-chainlit
    ```
    python3 -m venv .venv && source .venv/bin/activate
    ```
+     3.1 If the above does not work then try 
+      ```
+      python -m venv .venv ; .\.venv\Scripts\activate
+      ```
 
 4. Run the following command in the terminal to install necessary python packages:
    ```
