@@ -46,12 +46,17 @@ cd langchain-ollama-chainlit
       python -m venv .venv ; .\.venv\Scripts\activate
       ```
 
-4. Run the following command in the terminal to install necessary python packages:
+     3.2 If the above does not work then try 
+      ```
+      python -m venv .venv ; .\.venv\site-packages\activate
+      ```
+
+5. Run the following command in the terminal to install necessary python packages:
    ```
    pip install -r requirements.txt
    ```
 
-5. Run the following command in your terminal to start the chat UI:
+6. Run the following command in your terminal to start the chat UI:
    ```
    # Example 1
    chainlit run simple_chatui.py
