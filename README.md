@@ -64,6 +64,7 @@ cd langchain-ollama-chainlit
    ---
     ```
    # Example 2
+    # python ingest.py worked for me
    python3 ingest.py
    chainlit run main.py
    ```
